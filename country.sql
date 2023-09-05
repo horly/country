@@ -42,7 +42,7 @@ CREATE TABLE `countries` (
 -- Déchargement des données de la table `country`
 --
 
-INSERT INTO `country` (`id`, `code`, `alpha2`, `alpha3`, `name_gb`, `name_fr`, `telephone_code`, `vat_rat`) VALUES
+INSERT INTO `countries` (`id`, `code`, `alpha2`, `alpha3`, `name_gb`, `name_fr`, `telephone_code`, `vat_rat`) VALUES
 (1, 4, 'AF', 'AFG', 'Afghanistan', 'Afghanistan', '93', 0),
 (2, 8, 'AL', 'ALB', 'Albania', 'Albanie', '355', 20),
 (4, 12, 'DZ', 'DZA', 'Algeria', 'Algérie', '213', 19),
@@ -292,7 +292,7 @@ INSERT INTO `country` (`id`, `code`, `alpha2`, `alpha3`, `name_gb`, `name_fr`, `
 --
 -- Index pour la table `country`
 --
-ALTER TABLE `country`
+ALTER TABLE `countries`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -302,10 +302,6 @@ ALTER TABLE `country`
 --
 -- AUTO_INCREMENT pour la table `country`
 --
-ALTER TABLE `country`
+ALTER TABLE `countries`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=243;
 COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
