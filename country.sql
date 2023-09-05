@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Structure de la table `country`
 --
 
-CREATE TABLE `country` (
+CREATE TABLE `countries` (
   `id` int(11) NOT NULL,
   `code` int(11) NOT NULL,
   `alpha2` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
