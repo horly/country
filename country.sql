@@ -28,8 +28,8 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `countries` (
-  `id` int(11) NOT NULL,
-  `code` int(11) NOT NULL,
+  `id` int(10) NOT NULL,
+  `code` int(10) NOT NULL,
   `alpha2` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `alpha3` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `name_gb` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
