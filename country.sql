@@ -93,7 +93,7 @@ INSERT INTO `country` (`id`, `code`, `alpha2`, `alpha3`, `name_gb`, `name_fr`, `
 (49, 174, 'KM', 'COM', 'Comoros', 'Comores', '269', 0),
 (50, 175, 'YT', 'MYT', 'Mayotte', 'Mayotte', '262', 0),
 (51, 178, 'CG', 'COG', 'Republic of the Congo', 'République du Congo', '242', 16),
-(52, 180, 'CD', 'COD', 'The Democratic Republic Of The Congo', 'République Démocratique du Congo', '243', 0),
+(52, 180, 'CD', 'COD', 'Democratic Republic Of The Congo', 'République Démocratique du Congo', '243', 0),
 (53, 184, 'CK', 'COK', 'Cook Islands', 'Îles Cook', '682', 0),
 (54, 188, 'CR', 'CRI', 'Costa Rica', 'Costa Rica', '506', 0),
 (55, 191, 'HR', 'HRV', 'Croatia', 'Croatie', '385', 25),
